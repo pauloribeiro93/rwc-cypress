@@ -10,7 +10,7 @@ context('Cadastro', () => {
         cadastro.validaCriacaoDeUsuario()
      
      
-    );
+    });
 });
 
 
