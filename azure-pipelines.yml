@@ -25,3 +25,11 @@ steps:
 - script: npm run cy:run:chrome
   displayName: 'Run test on Chrome'
   continueOnError: true
+
+- task: PublishTestResults@2
+  displayName: 'Exibindo resultados dos testes'
+  inputs:
+    testResultsFiles:  '**/junit-*.xml'
+    mergeTestResults: true
+    testRunTitle: 'Agilizei Nível 2'
+  continueOnError: true
