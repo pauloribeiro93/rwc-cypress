@@ -1,5 +1,5 @@
 export const ELEMENTS = {
-    inputEmail: 'a[href*=editor]',
-    inputPass: 'input[ng-model*=title]',
+    inputEmail: 'input[ng-model*=email]',
+    inputPass: 'input[ng-model*=password]',
     buttonSubmit:'button.btn-primary'
 }
