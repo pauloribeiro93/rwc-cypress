@@ -7,10 +7,10 @@ context('Cadastro', () => {
         cy.visit('register');
         cadastro.preencheCadastro()
         cadastro.submeteRegistro()
-        cadastro.validaCriacaoDeUsuario
+        cadastro.validaCriacaoDeUsuario()
      
      
-    });
+    );
 });
 
 
